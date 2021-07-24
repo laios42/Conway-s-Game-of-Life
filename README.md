@@ -2,12 +2,7 @@
 
 The game of life is a cellular automaton imagined by John H. Conway in the 1970s and is probably, the best known of all cellular automata. Despite very simple rules, the game of life is Turing-complete and deterministic.
 
-![Simulation.](conways_gol_rec.gif "Simulation")
-
-<div style="display:flex;">
-  <img src="conways_gol_rec.gif" alt="Simulation" style="width:100%;" align="center">
-  <p style="text-align:center">Simulation.</p>
-</div>
+<p align="center"><img src="conways_gol_rec.gif" alt="Simulation" style="width:100%;"><p align="center">Simulation.</p></p>
 
 **The game is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input.**
 
