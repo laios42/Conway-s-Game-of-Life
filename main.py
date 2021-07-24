@@ -20,7 +20,6 @@ fps = 28
 
 # colors in RGB notation
 black = (0, 0, 0)
-blue = (0, 25, 90)
 white = (255, 255, 255)
 
 px_scale = 15     # size of pixels
@@ -35,7 +34,6 @@ run = True
 while run:
 
     clock.tick(fps)
-    screen.fill(black)
 
     # controls when an input is provided
     for event in pygame.event.get():
@@ -47,8 +45,7 @@ while run:
             if event.key == pygame.K_SPACE:
                 pause = not pause
     
-    # 
-    Grid.Conway(off_color=white, on_color=blue, surface=screen, pause=pause)
+    Grid.Conway(off_color=black, on_color=white, surface=screen, pause=pause)
 
     if pygame.mouse.get_pressed()[0]:
         mouseX, mouseY = pygame.mouse.get_pos()
