@@ -14,3 +14,14 @@ The game only has 4 simple rules:
 3. Any live cell with more than three live neighbors dies, as if by overpopulation.
 4. Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
 
+## To Run Simulation :
+       run main.py
+
+### Requirements :
+       * pygame -> pip install pygame
+       * numpy  -> pip install numpy
+       
+### Controls :
+       * "space bar" to pause simulation
+       * "left mouse click" to insert a live cell
+       * "esc" to exit
