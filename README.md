@@ -14,6 +14,8 @@ The game only has 4 simple rules:
 3. Any live cell with more than three live neighbors dies, as if by overpopulation.
 4. Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
 
+After you start the game, the board iterates based on these rules. Cells become populated and unpopulated. There is entropy as your simulated universe likely turns to chaos and disorder as ‘energy’ and information represented by populated cells dissipates throughout the universe. It’s possible to simply see how structures can compound and form increasingly larger, complex structures that are nothing more than assemblies of simpler structures.
+
 It is interesting to see that such complex systems can emerge from such elementary rules and configurations — It kind of reminds us of the real world, where elementary blocks congregate to generate much more complex structures such as life.
 
 ## To Run Simulation
@@ -33,3 +35,9 @@ It is interesting to see that such complex systems can emerge from such elementa
        * "spacebar" to pause simulation
        * "left mouse click" to insert a live cell
        * "esc" to exit
+
+
+**~~~~~~ My reason for learning about Game of Life ~~~~~~ **
+
+* It is turing complete.
+* It shows how complex systems at it's core are made of simpler structures, which is philosophically an interesting idea.
