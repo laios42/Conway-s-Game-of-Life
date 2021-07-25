@@ -14,6 +14,8 @@ The game only has 4 simple rules:
 3. Any live cell with more than three live neighbors dies, as if by overpopulation.
 4. Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
 
+It is interesting to see that such complex systems can emerge from such elementary rules and configurations — It kind of reminds us of the real world, where elementary blocks congregate to generate much more complex structures such as life.
+
 ## To Run Simulation :
        run main.py
 
